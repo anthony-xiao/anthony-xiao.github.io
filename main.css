@@ -5,4 +5,9 @@
 
 header {
     background: #346779;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    float: left;
 }
