@@ -1,3 +1,29 @@
+body,
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../styles/sakura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.5)
+}
+
 .container {
     margin: 0;
     float:left;
@@ -5,7 +31,6 @@
 }
 
 header {
-    background: #4f8599;
     color: #ffffff;
 }
 
@@ -47,7 +72,7 @@ nav li{
 }
 
 nav .nav-choice:hover {
-    color: #111111;
+    color: #ffd8d8;
 }
 
 nav .nav-choice::before {
@@ -73,19 +98,24 @@ nav .nav-choice:hover::before{
 }
 
 h1 {
-    color: #4f8599;
+    color: #d4d6d6;
     padding-left: 1%;
 }
 
 p {
-    color: #4f8599;
+    color: #d4d6d6;
     padding-left: 1%;
 }
 
 ul .class {
-    color: #4f8599;
+    color: #d4d6d6;
     
 }
 p.question-header {
     font-weight: bold;  
  }
+
+a {
+    color: #d4d6d6;
+
+}
