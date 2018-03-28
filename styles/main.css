@@ -4,16 +4,15 @@
     height: 0%;
 }
 
-a {
+
+h1 {
+    color: #4f8599;
     padding-left: 1%;
 }
 
-h1 {
-    padding-left: 1%
-}
-
 p {
-    padding-left: 1%
+    color: #4f8599;
+    padding-left: 1%;
 }
 
 header {
@@ -80,5 +79,7 @@ nav .nav-choice:hover::before{
     top: 0;
 }
 
-
+.blog-link {
+    padding-left: 1%;
+}
 
