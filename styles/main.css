@@ -4,17 +4,6 @@
     height: 0%;
 }
 
-
-h1 {
-    color: #4f8599;
-    padding-left: 1%;
-}
-
-p {
-    color: #4f8599;
-    padding-left: 1%;
-}
-
 header {
     background: #4f8599;
     color: #ffffff;
@@ -83,3 +72,20 @@ nav .nav-choice:hover::before{
     padding-left: 1%;
 }
 
+h1 {
+    color: #4f8599;
+    padding-left: 1%;
+}
+
+p {
+    color: #4f8599;
+    padding-left: 1%;
+}
+
+ul .class {
+    color: #4f8599;
+    
+}
+p.question-header {
+    font-weight: bold;  
+ }
