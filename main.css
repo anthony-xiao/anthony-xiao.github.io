@@ -10,4 +10,9 @@ header {
 
 .navbar-brand {
     float: left;
+    color: #ffffff;
+}
+
+nav {
+    float: right;
 }
