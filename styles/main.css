@@ -7,6 +7,7 @@ body {
     background-image: url(../styles/sakura.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     top: 0;
     bottom: 0;
@@ -15,7 +16,7 @@ body {
 }
 
 .hero-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     height: 100%;
@@ -93,18 +94,17 @@ nav .nav-choice:hover::before{
     top: 0;
 }
 
-.blog-link {
-    padding-left: 1%;
-}
+
 
 h1 {
     color: #d4d6d6;
     padding-left: 1%;
 }
 
-p {
+.text {
     color: #d4d6d6;
-    padding-left: 1%;
+    padding-left: 4%;
+    padding-right: 4%
 }
 
 ul .class {
@@ -119,3 +119,27 @@ a {
     color: #d4d6d6;
 
 }
+
+.picture-link {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+}
+
+.blog-link {
+    padding: 2%;
+}
+
+.blog-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.picture-link:hover .blog-overlay {
+    opacity: 0.5;
+}
+
