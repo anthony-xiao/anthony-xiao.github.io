@@ -24,7 +24,7 @@
 @media (min-width: 550px) {
     .row {
         flex-wrap: wrap;
-        flex-flow: wrap;
+        display: inline-block;
         overflow-wrap: normal;
     }
 }
