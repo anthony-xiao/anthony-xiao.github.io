@@ -18,6 +18,7 @@
     max-width: 1200px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .responsive {
@@ -28,11 +29,6 @@
 .u-max-full-width {
     max-width: 100%;
     box-sizing: border-box; 
-}
-
-.header{
-    background-image: url(sakura.jpg);
-    
 }
 
 .hero-overlay {
@@ -57,4 +53,8 @@ body{
     bottom: 0;
     height: 100%;
     z-index: -10;
+}
+
+.button{
+    color: whitesmoke;
 }
