@@ -4,58 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Technical Blog Part 1</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Tech Blog 1</title>
 </head>
-    <body>
-         <div class="hero-overlay">
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row" style="display: flex;" >
+            <div class="eight.columns">
+                <h3>The Journey</h3>
+            </div>
+            <div class="two columns" style="margin-top: 10px;">
+                <!-- Standard buttons -->
+                <a class="button" href="https://anthony-xiao.github.io/">Back to Home</a>
+            </div>
         </div>
-        <header>
-                <div class="container">
-                        <a class="navbar-brand" href="../index.html">Anthony's Page</a>
-        
-                        <nav>
-                        <ul>
-                            <li><a class="nav-choice" href="../index.html">Home</a></li>
-                            <li><a class="nav-choice" href="#">Blogs</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-                
-                <div><h1>Teachnical Blog Part 1</h1>
-
-                    <div class="text">
-
-                        <p class="question-header">Wishlist</p>
-                        <ul>
-                            <li>Overlay images with text to link to another page</li>
-                            <li>Sidemenu bar with small logos</li>
-                            <li>Backgound limitless scroll (Completed)</li>
-                            <li>Small logo call to action buttons</li>
-                            <li>Side navbar that always follow with the scroll</li>
-                        </ul>
-        
-                        <p class="question-header">Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</p>
-                        <p>An analogy I can think of that can describe HTML CSS, and the DOM would be comparing this to buildig a house. The HTML is the structure and frame work of the house, it is what everything will go off of from. CSS is what is being built on top of the structure (HTML) to make it more appealing. The DOMS is like the carpenter that has been handed the structure and design, if you follow it it will be built as designed but each builder are different and have their own intepretation on things, this can at times cause slight differences between builders (DOM) while given the same information. </p>
-        
-                        <p class="question-header">What is meant by boxifying design?</p>
-                        <p>Boxifying desing means to look at webpages as a combination of boxes. Everything you see on a webpage is something within a box, and sometimes a box within a box. Making everything in a box allows things on a webpage to be designed and moved easier. Even with items that are circle or other odd shapes, it begins with a box and further edited/coded into its shape. </p>
-                  
-        
-                        <p class="question-header"> What is the box model?</p>
-                        <p>The box model is the breakdown of how 'box' look like during coding. It has 4 components
-                            <ul>
-                                <li><strong>Content</strong> - Area that the actual content (picture, text, etc) is taking up.</li>
-                                <li><strong>Padding</strong> - This is gives an area around the content that is still within the box</li>
-                                <li><strong>Border</strong> - Borders incapsulate content and padding, it will have the color property of the box so it can be as the title suggests a border or invisible if the color is transparent.</li>
-                                <li><strong>Margin</strong> - This is area that goes outside of the box, it gives space between the box and the next item that will be next to the box. </li>
-                            </ul>
-                        </p>
-        
-                        
-                    </div>
-            
-    </body>
+        <div class="row">
+            <div class="twelve.columns u-max-full-width">
+                <header>
+                    <h5>Technical Blog Part 1</h5>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve.columns">
+                <header class="question-head">Wishlist</header>
+                <ul>
+                    <li>Overlay images with text to link to another page</li>
+                    <li>Sidemenu bar with small logos</li>
+                    <li>Backgound limitless scroll (Completed)</li>
+                    <li>Small logo call to action buttons</li>
+                    <li>Side navbar that always follow with the scroll</li>
+                    <li>Background image with overlay</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve.columns">
+                <header class="question-head">Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</header>
+                <p>
+                    An analogy I can think of that can describe HTML CSS, and the DOM would be comparing this to buildig a house. The HTML is the structure and frame work of the house, it is what everything will go off of from. CSS is what is being built on top of the structure (HTML) to make it more appealing. The DOMS is like the carpenter that has been handed the structure and design, if you follow it it will be built as designed but each builder are different and have their own intepretation on things, this can at times cause slight differences between builders (DOM) while given the same information.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve.columns">
+                <header class="question-head">What is meant by boxifying design?</header>
+                <p>
+                    Boxifying desing means to look at webpages as a combination of boxes. Everything you see on a webpage is something within a box, and sometimes a box within a box. Making everything in a box allows things on a webpage to be designed and moved easier. Even with items that are circle or other odd shapes, it begins with a box and further edited/coded into its shape.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve.columns">
+                <header class="question-head">What is the box model?</header>
+                <p>The box model is the breakdown of how 'box' look like during coding. It has 4 components
+                    <ul>
+                        <li><strong>Content</strong> - Area that the actual content (picture, text, etc) is taking up.</li>
+                        <li><strong>Padding</strong> - This is gives an area around the content that is still within the box</li>
+                        <li><strong>Border</strong> - Borders incapsulate content and padding, it will have the color property of the box so it can be as the title suggests a border or invisible if the color is transparent.</li>
+                        <li><strong>Margin</strong> - This is area that goes outside of the box, it gives space between the box and the next item that will be next to the box. </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            Always up for a chat, come find me!
+        </div>
+    </footer>
+</body>
 </html>

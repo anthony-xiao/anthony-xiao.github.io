@@ -1,0 +1,35 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Background
+- rows
+*/
+
+/* Background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.body-main{
+    width: 100vw;
+    height: 25vh;
+    background-color: blue; 
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+button{
+    padding-top: 5px;
+}
