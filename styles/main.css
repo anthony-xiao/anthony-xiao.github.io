@@ -18,7 +18,15 @@
     max-width: 1200px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+@media (min-width: 550px) {
+    .row {
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        overflow-wrap: normal;
+    }
 }
 
 .responsive {
@@ -58,3 +66,11 @@ body{
 .button{
     color: whitesmoke;
 }
+
+img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    resize: both;
+}
+
