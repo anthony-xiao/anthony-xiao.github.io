@@ -74,3 +74,7 @@ img{
     resize: both;
 }
 
+.question-head{
+    font-weight: bolder;
+    color: #b8b8b8;
+}
