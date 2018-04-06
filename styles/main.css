@@ -2,7 +2,10 @@
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Background
 - rows
-*/
+- Size adjustments
+- Button
+- Paragraph Typography
+
 
 /* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -13,6 +16,33 @@
     background-color: blue; 
 }
 
+
+body{
+    color: whitesmoke;
+    background-image: url(sakura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+}
+
+.hero-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.5)
+}
+
+/* Rows
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .row{
     margin: 0 auto;
     max-width: 1200px;
@@ -29,6 +59,8 @@
     }
 }
 
+/* Size adjustments
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .responsive {
     width: 100%;
     height: auto;
@@ -39,34 +71,6 @@
     box-sizing: border-box; 
 }
 
-.hero-overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -5;
-    background-color: rgba(0,0,0,0.5)
-}
-
-body{
-    color: whitesmoke;
-    background-image: url(sakura.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: -10;
-}
-
-.button{
-    color: whitesmoke;
-}
-
 img{
     object-fit: contain;
     height: 100%;
@@ -74,7 +78,18 @@ img{
     resize: both;
 }
 
+
+/* Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button{
+    color: whitesmoke;
+}
+
+/* Paragraph Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .question-head{
     font-weight: bolder;
     color: #b8b8b8;
 }
+
